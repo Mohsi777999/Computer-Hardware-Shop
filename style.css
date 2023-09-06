@@ -1,0 +1,1155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;600&family=Krona+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #101010;
+}
+
+
+
+
+/* Styles For Navigation Bar */
+
+nav {
+    background-color: #181818;
+    height: auto;
+    width: 100%;
+}
+
+nav .navigation-bar .navbar-brand {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: center;
+}
+
+nav .navigation-bar .navbar-brand img {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+nav .navigation-bar .navbar-brand h3 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    text-shadow: 5px 5px 25px white;
+}
+
+nav .navigation-bar .navbar-collapse .navbar-nav {
+    gap: 25px;
+}
+
+nav .navigation-bar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+/* Styles For Banner */
+
+.banner {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    left: 250px;
+    right: 1140px;
+}
+
+.banner .banner-content h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 120px;
+    text-shadow: 5px 5px 15px white;
+}
+
+.banner .banner-content h3 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.banner .banner-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #efefef;
+}
+
+.banner .banner-content .btn-2 {
+    cursor: text;
+    font-size: 20px;
+}
+
+
+
+
+/* Styles For Six Products */
+
+.home-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.home-product .card {
+    width: 15rem;
+    border: none;
+    box-shadow: 9px 9px 12px #292525c7;
+    transition: all 0.4s ease-in-out;
+}
+
+.home-product .card:hover {
+    transform: translateY(20px);
+}
+
+.home-product .card .card-body {
+    background-color: #494444;
+}
+
+.home-product .card .card-body h6 {
+    color: white;
+}
+
+.home-product .item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Styles For Eight Products */
+
+.take-over {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.take-over h3 {
+    color: #9E9A9A;
+}
+
+.take-over h1 {
+    color: white;
+}
+
+.take-over p {
+    color: #9E9A9A;
+}
+
+.first-four-products,
+.last-four-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 20px 0px 100px 0px;
+}
+
+.first-four-products .card,
+.last-four-products .card {
+    width: 18rem;
+    border: none;
+    box-shadow: 9px 9px 20px #1c1919c7;
+    transition: all 0.3s ease-in-out;
+}
+
+.first-four-products .card:hover,
+.last-four-products .card:hover {
+    transform: scale(1.1);
+}
+
+.first-four-products .card .card-body,
+.last-four-products .card .card-body {
+    background-color: #101010;
+}
+
+.first-four-products .card .card-body h6,
+.last-four-products .card .card-body h6 {
+    font-size: 15px;
+    color: white;
+}
+
+.first-four-products .card .card-body h5,
+.last-four-products .card .card-body h5 {
+    font-size: 12px;
+    color: #9E9A9A;
+}
+
+.first-four-products .card .card-body h4,
+.last-four-products .card .card-body h4 {
+    font-size: 14px;
+    color: #00F0FF;
+}
+
+
+
+
+/* Styles For Build Your New Pc Section */
+
+.build-bg {
+    position: relative;
+}
+
+.build-bg img {
+    width: 100%;
+    height: 160ex;
+}
+
+.build-your-new-pc .build-content {
+    position: absolute;
+    top: 190rem;
+    left: 33rem;
+    display: flex;
+    justify-content: left;
+    gap: 115px;
+    align-items: center;
+}
+
+.build-your-new-pc .build-content .build-headings h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.build-your-new-pc .build-content .build-headings h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.build-your-new-pc .build-content .build-headings p {
+    color: #B9A6A6;
+}
+
+.build-your-new-pc .build-content .build-headings .build-icons-parent {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    align-items: center;
+}
+
+.build-your-new-pc .build-content .build-headings .build-icons-parent p {
+    line-height: 1px;
+    font-size: 12px;
+}
+
+.build-your-new-pc .build-content .build-headings .build-icons-parent .build-icon-1,
+.build-your-new-pc .build-content .build-headings .build-icons-parent .build-icon-2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.build-your-new-pc .build-content .build-headings .build-icons-parent img {
+    margin-bottom: 15px;
+}
+
+.build-your-new-pc .build-content .build-headings .build-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+
+/* Styles For Ready PC Build */
+
+.play-pros-heading {
+    position: absolute;
+    top: 445ex;
+    left: 90ex;
+    text-align: center;
+}
+
+.play-pros-heading h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.play-pros-heading h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.play-pros-heading p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* Styles For Subscription Plan  */
+
+.parent .card {
+    width: 250px;
+    height: 330px;
+    background-color: #181717;
+    border: 2px solid rgb(177 173 173);
+    text-shadow: 5px 5px 25px white;
+    box-shadow: 8px 5px 17px #404040;
+}
+
+.parent .card .prize {
+    background-color: #494444;
+    width: 246px;
+    height: 68px;
+    text-align: center;
+    border: 2px solid rgb(177 173 173);
+}
+
+.parent .card .prize .dolar h1 {
+    font-size: 33px;
+}
+
+.parent .card .prize .dolar h4 {
+    font-size: 10px;
+}
+
+.parent .card .prize .dolar {
+    color: white;
+    text-align: center;
+}
+
+.centeritems {
+    width: 248px;
+    height: 330px;
+    border: 3px solid rgb(177 173 173);
+}
+
+.parent .card .button {
+    line-height: -1px;
+    width: 246px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    background-color: #181717;
+    border: 2px solid rgb(177 173 173);
+}
+
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(177 173 173);
+    margin-left: 25px;
+}
+
+.i3,
+.ram,
+.ti,
+.ssd {
+    text-align: center;
+    line-height: 0px;
+    padding-top: 15px;
+    color: white;
+}
+
+.i3,
+.ram,
+.ti,
+.ssd,
+h5 {
+    font-size: 15px;
+}
+
+.Four-Subscription-PLan-Parent-Div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 475ex;
+    left: 48ex;
+}
+
+
+
+
+/* Styles For Eight Images */
+
+.first-four-images,
+.last-four-images {
+    display: flex;
+}
+
+.first-four-images .picture img,
+.last-four-images .picture img {
+    width: 100%;
+    height: 380px;
+}
+
+
+
+
+/* Styles For Gear Up Section */
+
+.gear-up {
+    background-image: url(./Images/gear-up.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gear-up .row .gear-up-content {
+    padding: 90px 0px 5px 135px;
+}
+
+.gear-up .row .gear-up-content .gear-up-heading h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 94px;
+}
+
+.gear-up .row .gear-up-content .gear-up-heading h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 69px;
+    font-weight: bolder;
+}
+
+.gear-up .row .gear-up-content .gear-up-para p {
+    color: #BCB6B6;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.gear-up .row .gear-up-video video {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Styles For Power And Beauty Section */
+
+.power-and-beauty-parent {
+    position: relative;
+}
+
+.power-and-beauty-parent .bg-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.power-and-beauty-parent .girl-gamer img {
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 380px;
+}
+
+.power-and-beauty-parent .chip img {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    top: 50px;
+    left: 780px;
+}
+
+.power-and-beauty-parent .setup img {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    top: 320px;
+    left: 780px;
+}
+
+.power-and-beauty-parent .content {
+    position: absolute;
+    top: 80px;
+    left: 1070px;
+}
+
+.power-and-beauty-parent .content h1 {
+    color: white;
+    font-family: Inter;
+    font-weight: bolder;
+}
+
+.power-and-beauty-parent .content h2 {
+    color: #CEC4C4;
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.power-and-beauty-parent .content p {
+    color: #ebe4e4;
+    font-family: Inter;
+}
+
+.power-and-beauty-parent .content h5 {
+    color: white;
+    font-family: Inter;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+
+/* Styles For Footer */
+
+footer{
+    background-image: url(./Images/footer\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .footer-heading{
+   padding: 100px 0px 0px 0px;
+}
+
+footer .footer-heading h1{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+}
+
+footer .footer-para{
+    padding: 30px 530px 10px 482px;
+}
+
+footer .footer-para p{
+   color: #9f9e9e;
+   font-family: Inter;
+   font-weight: 600;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+footer .footer-icons{
+    display: flex;
+    gap: 50px;
+    padding: 0px 0px 60px 805px;
+}
+
+footer .footer-icons i{
+    font-size: 30px;
+}
+
+footer .footer-copyright{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    gap: 170ex;
+}
+
+
+
+
+
+
+/* CSS MEDIA QUIRIES SECTION FOR RESPONSIVES  */
+
+
+
+/* Responsive For Mobile Devices */
+
+@media (max-width:480px) {
+
+    nav .navigation-bar .navbar-brand h3 {
+        font-size: 17px;
+    }
+
+    nav .navigation-bar .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner .banner-content {
+        top: 10%;
+        left: 21px;
+        right: 55px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 100px;
+    }
+
+    .banner .banner-content h3 {
+        font-size: 40px;
+    }
+
+    .banner .banner-content p {
+        font-size: 12px;
+        color: #cbc7c7;
+        font-weight: 600;
+    }
+
+    .banner .banner-content .btn-2 {
+        font-size: 15px;
+    }
+
+    .home-product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 50px;
+        text-align: center;
+    }
+
+    .home-product .item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-product .card {
+        width: 17rem;
+    }
+
+    .take-over p {
+        font-size: 10px;
+    }
+
+    .first-four-products,
+    .last-four-products {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .build-bg img {
+        width: 100%;
+        height: 2640px;
+    }
+
+    .build-your-new-pc .build-content {
+        top: 470rem;
+        left: 0rem;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .build-your-new-pc .build-content .build-headings {
+        width: 370px;
+        height: 315px;
+        text-align: center;
+    }
+
+    .build-your-new-pc .build-content .build-headings p {
+        font-size: 13px;
+    }
+
+    .build-your-new-pc .build-content .build-headings .build-icons-parent {
+        gap: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .build-your-new-pc .build-content .build-headings .build-buttons {
+        justify-content: center;
+    }
+
+    .play-pros-heading {
+        top: 1055ex;
+        left: 6ex;
+    }
+
+    .play-pros-heading p {
+        font-size: 12px;
+    }
+
+    .Four-Subscription-PLan-Parent-Div {
+        top: 1080ex;
+        left: 9ex;
+        flex-direction: column;
+    }
+
+    .first-four-images,
+    .last-four-images {
+        flex-wrap: wrap;
+    }
+
+    .gear-up .row .gear-up-content {
+        padding: 90px 0px 5px 10px;
+    }
+
+    .power-and-beauty-parent .bg-image img {
+        width: 100%;
+        height: 1080px;
+    }
+
+    .power-and-beauty-parent .girl-gamer img {
+        width: 300px;
+        height: 400px;
+        top: 50px;
+        left: 40px;
+    }
+
+    .power-and-beauty-parent .chip img {
+        width: 130px;
+        height: 120px;
+        top: 480px;
+        left: 45px;
+    }
+
+    .power-and-beauty-parent .setup img {
+        width: 130px;
+        height: 120px;
+        top: 480px;
+        left: 210px;
+    }
+
+    .power-and-beauty-parent .content {
+        top: 650px;
+        left: 20px;
+    }
+
+    footer .footer-para{
+        padding: 30px 15px 10px 18px;
+    }
+
+    footer .footer-icons{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding: 0px 0px 60px 175px;
+    }
+    
+    footer .footer-copyright{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1ex;
+    }
+}
+
+
+
+/* Responsive For ipad / Tablet Devices */
+
+@media (min-width:481px) and (max-width:991px) {
+
+    nav .navigation-bar .navbar-brand h3 {
+        font-size: 17px;
+    }
+
+    nav .navigation-bar .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner .banner-content {
+        top: 10%;
+        left: 21px;
+        right: 350px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 90px;
+    }
+
+    .banner .banner-content h3 {
+        font-size: 60px;
+    }
+
+    .banner .banner-content p {
+        font-size: 11px;
+        color: #cbc7c7;
+        font-weight: 600;
+    }
+
+    .banner .banner-content .btn-2 {
+        font-size: 20px;
+    }
+
+    .banner picture .banner-image {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .home-product {
+        gap: 17px;
+    }
+
+    .home-product .card .card-body h6 {
+        font-size: 8px;
+    }
+
+    .take-over p {
+        font-size: 12px;
+    }
+
+    .first-four-products,
+    .last-four-products {
+        gap: 30px;
+        padding: 50px 0px;
+    }
+
+    .first-four-products .card,
+    .last-four-products .card {
+        width: 10rem;
+    }
+
+
+    .first-four-products .card .card-body h6,
+    .last-four-products .card .card-body h6 {
+        font-size: 14px;
+    }
+
+    .build-bg img {
+        width: 100%;
+        height: 190ex;
+    }
+
+    .build-your-new-pc .build-content {
+        top: 120rem;
+        left: 3rem;
+        gap: 50px;
+        display: flex;
+    }
+
+    .build-your-new-pc .build-content .build-headings {
+        text-align: left;
+    }
+
+
+    .build-your-new-pc .build-content .build-headings .build-icons-parent {
+        gap: 10px;
+        justify-content: left;
+    }
+
+    .build-your-new-pc .build-content .build-headings .build-buttons {
+        justify-content: left;
+    }
+
+    .play-pros-heading {
+        top: 300ex;
+        left: 27ex;
+    }
+
+    .Four-Subscription-PLan-Parent-Div {
+        top: 325ex;
+        left: 4ex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .first-four-images,
+    .last-four-images {
+        flex-wrap: wrap;
+    }
+
+    .first-four-images .picture img,
+    .last-four-images .picture img {
+        width: 410px;
+        height: 380px;
+    }
+
+    .power-and-beauty-parent .bg-image img {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .power-and-beauty-parent .girl-gamer img {
+        left: 70px;
+    }
+    
+    .power-and-beauty-parent .chip img {
+        left: 500px;
+    }
+    
+    .power-and-beauty-parent .setup img {
+        left: 500px;
+    }
+    
+    .power-and-beauty-parent .content {
+        top: 600px;
+        left: 250px;
+    }
+
+    footer .footer-para{
+        padding: 30px 15px 10px 18px;
+    }
+
+    footer .footer-icons{
+        display: flex;
+        gap: 20px;
+        padding: 0px 0px 60px 0px;
+        justify-content: center;
+    }
+    
+    footer .footer-copyright{
+        justify-content: center;
+        align-items: center;
+        gap: 40ex;
+    }
+
+}
+
+
+
+/* Responsive For Small Screen Laptop Devices */
+
+@media (min-width:991px) and (max-width:1200px) {
+
+
+    nav .navigation-bar .navbar-brand h3 {
+        font-size: 17px;
+    }
+
+    nav .navigation-bar .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner .banner-content {
+        top: 20%;
+        left: 32px;
+        right: 520px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 100px;
+    }
+
+    .banner .banner-content h3 {
+        font-size: 75px;
+    }
+
+    .banner .banner-content p {
+        font-size: 12px;
+        color: #cbc7c7;
+        font-weight: 600;
+    }
+
+    .banner .banner-content .btn-2 {
+        font-size: 20px;
+    }
+
+    .banner picture .banner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-product .card .card-body h6 {
+        font-size: 9px;
+    }
+
+    .first-four-products .card,
+    .last-four-products .card {
+        width: 12rem;
+    }
+
+    .build-bg img {
+        width: 100%;
+        height: 200ex;
+    }
+
+    .build-your-new-pc .build-content {
+        top: 136rem;
+        left: 9rem;
+        gap: 50px;
+    }
+
+    .play-pros-heading {
+        top: 330ex;
+        left: 40ex;
+    }
+
+    .Four-Subscription-PLan-Parent-Div {
+        top: 355ex;
+        left: 4ex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 130px;
+    }
+
+    .gear-up .row .gear-up-content {
+        padding: 44px 0px 50px 10px;
+    }
+
+    .gear-up .row .gear-up-content .gear-up-para p {
+        font-size: 14px;
+    }
+
+    .gear-up .row .gear-up-content .gear-up-heading h2 {
+        font-size: 50px;
+    }
+
+    .power-and-beauty-parent .girl-gamer img {
+        left: 25px;
+        width: 340px;
+    }
+    
+    .power-and-beauty-parent .chip img {
+        left: 385px;
+        width: 200px;
+    }
+    
+    .power-and-beauty-parent .setup img {
+        left: 385px;
+        width: 200px;
+    }
+    
+    .power-and-beauty-parent .content {
+        top: 100px;
+        left: 610px;
+    }
+
+    footer .footer-para{
+        padding: 30px 109px 10px 120px;
+    }
+
+    footer .footer-icons{
+        gap: 20px;
+        padding: 0px 0px 60px 0px;
+        justify-content: center;
+    }
+    
+    footer .footer-copyright{
+        gap: 65ex;
+    }
+
+}
+
+
+
+/* Responsive For Desktop Devices */
+
+@media (min-width:1200px) and (max-width:1500px) {
+    nav .navigation-bar .navbar-brand h3 {
+        font-size: 17px;
+    }
+
+    nav .navigation-bar .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner .banner-content {
+        top: 20%;
+        left: 32px;
+        right: 785px;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 100px;
+    }
+
+    .banner .banner-content h3 {
+        font-size: 75px;
+    }
+
+    .banner .banner-content p {
+        font-size: 12px;
+        color: #c9c8c8;
+        font-weight: 600;
+    }
+
+    .banner .banner-content .btn-2 {
+        font-size: 20px;
+    }
+
+    .banner picture .banner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-product .card .card-body h6 {
+        font-size: 9px;
+    }
+
+    .first-four-products .card,
+    .last-four-products .card {
+        width: 14rem;
+    }
+
+    .build-bg img {
+        width: 100%;
+        height: 150ex;
+    }
+
+    .build-your-new-pc .build-content {
+        top: 155rem;
+        left: 17rem;
+        gap: 50px;
+    }
+
+    .play-pros-heading {
+        top: 370ex;
+        left: 54ex;
+    }
+
+    .Four-Subscription-PLan-Parent-Div {
+        top: 400ex;
+        left: 15ex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .gear-up .row .gear-up-content {
+        padding: 44px 0px 50px 10px;
+    }
+
+    .power-and-beauty-parent .girl-gamer img {
+        left: 100px;
+    }
+    
+    .power-and-beauty-parent .chip img {
+        left: 500px;
+        width: 250px;
+    }
+    
+    .power-and-beauty-parent .setup img {       
+        left: 500px;
+        width: 250px;
+    }
+    
+    .power-and-beauty-parent .content {
+        top: 100px;
+        left: 780px;
+    }
+
+    footer .footer-heading{
+        padding: 30px 0px 0px 0px;
+     }
+
+    footer .footer-para{
+        padding: 30px 109px 10px 120px;
+    }
+
+    footer .footer-icons{
+        gap: 20px;
+        padding: 0px 0px 60px 0px;
+        justify-content: center;
+    }
+    
+    footer .footer-copyright{
+        gap: 85ex;
+    }
+}
