@@ -566,6 +566,71 @@ footer .footer-copyright{
 
 
 
+.product-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 20px;
+    padding: 30px 130px;
+} 
+
+.product-body .product-category{
+    width: 15%;
+    border-radius: 30px;
+    background-color: #202021;
+    height: 800px;
+}
+
+.product-body .product-items{
+    width: 85%;
+    border-radius: 30px;
+    background-color: #202021;
+    height: 800px;
+}
+
+
+.product-body .product-category .buttons-parent-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.product-body .product-category .buttons-parent-div input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #AB2525;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-body .product-category .buttons-parent-div input:hover{
+    color: #AB2525;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* CSS MEDIA QUIRIES SECTION FOR RESPONSIVES  */
